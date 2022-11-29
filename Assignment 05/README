@@ -1,0 +1,14 @@
+We have to calculate values of x1, x2, x3, x4.
+We take it as 
+A.X = B
+we will perform the operation on A to calculate L & O.
+Now calculate 
+L.Y = B
+we get matrix Y, use it to calculate X. From equation U.X = Y, we get X.
+This is result of LU decomposition.
+
+Parallel Approach
+We can make use of parallelism to calculate L & U.
+We can use MPI to calculate L & U.
+Distribute the matrix A to different processors.
+Thus we can calculate L & U in parallel.
